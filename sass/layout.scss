@@ -1,0 +1,19 @@
+/*
+    Document   : layout
+    Created on : Aug 29, 2012, 9:23:54 PM
+    Author     : Greg Bueno
+    Description:
+        Layout style rules for Shinkyoku Advocacy
+*/
+
+#masthead {
+	background-color: inherit;
+	background-image: none;
+	margin-top: 1.5em;
+}
+
+@media screen and (max-width: 768px) {
+    #shinkyoku-advocacy-logo {
+    	width: 319px;
+    }
+}
