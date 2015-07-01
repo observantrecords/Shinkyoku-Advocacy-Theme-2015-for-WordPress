@@ -26,7 +26,7 @@ namespace ObservantRecords\WordPress\Themes\ShinkyokuAdvocacy;
 <body>
 	<div id="container" class="container">
 		<div id="masthead" class="row">
-			<header class="centered col-md-12">
+			<header class="text-center col-md-12">
 				<h1 id="title">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo __('Home', WP_TEXT_DOMAIN); ?>" rel="home">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/shinkyoku_advocacy_logo.png" alt="[<?php bloginfo( 'name' ); ?>]" title="[<?php bloginfo( 'name' ); ?>]" id="shinkyoku-advocacy-logo" />
