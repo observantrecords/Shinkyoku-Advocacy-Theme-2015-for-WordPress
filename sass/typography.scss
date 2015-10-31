@@ -7,32 +7,34 @@
 */
 
 @mixin default-font {
-	font-family: "CartoGothicStd";
-	src: url("assets/fonts/CartoGothicStd-Book-webfont.eot");
-	src: url("assets/fonts/CartoGothicStd-Book-webfont.eot?iefix") format("eot"),
-		url("assets/fonts/CartoGothicStd-Book-webfont.woff") format("woff"),
-		url("assets/fonts/CartoGothicStd-Book-webfont.ttf") format("truetype"),
-		url("assets/fonts/CartoGothicStd-Book-webfont.svg#webfont") format("svg");
+  font-family: "CartoGothicStd";
+  src: url("assets/fonts/CartoGothicStd-Book-webfont.eot");
+  src: url("assets/fonts/CartoGothicStd-Book-webfont.eot?iefix") format("eot"),
+  url("assets/fonts/CartoGothicStd-Book-webfont.woff") format("woff"),
+  url("assets/fonts/CartoGothicStd-Book-webfont.ttf") format("truetype"),
+  url("assets/fonts/CartoGothicStd-Book-webfont.svg#webfont") format("svg");
 }
 
 @font-face {
-	@include default-font;
+  @include default-font;
 }
+
 @font-face {
-	@include default-font;
-	font-weight: bold;
-	font-style: italic, oblique;
+  @include default-font;
+  font-weight: bold;
+  font-style: italic, oblique;
 }
+
 @font-face {
-	@include default-font;
-	font-weight: bold;
+  @include default-font;
+  font-weight: bold;
 }
 
 body {
-    font-size: 16px;
-	line-height: 1.632653061714286;
+  font-size: 16px;
+  line-height: 1.632653061714286;
 }
 
 #content {
-	font-family: 'CartoGothicStd', Helvetica, Arial, sans-serif;
+  font-family: 'CartoGothicStd', Helvetica, Arial, sans-serif;
 }
