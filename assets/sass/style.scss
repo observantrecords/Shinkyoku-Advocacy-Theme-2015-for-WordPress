@@ -4,10 +4,10 @@ Author: Greg Bueno
 Author URI: http://vigilantmedia.com/
 Description: A WordPress theme customized for Shinkyoku Advocacy, based on the Observant Records theme.
 Template: observantrecords2015
-Version: 2.0
+Version: 2.1
 Text Domain: shinkyokuadvocacy
 */
 
 @import "../observantrecords2015/style.css";
-@import "layout.scss";
-@import "typography.scss";
+@import "layout";
+@import "typography";
